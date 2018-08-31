@@ -1,0 +1,125 @@
+body{
+  display: flex;
+}
+
+container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+title{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 50px;
+}
+
+AddPeople {
+  display: flex;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+form {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+innerContainer{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  width: 80%;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+Person{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid black;
+  font-size: 40px;
+}
+
+ListPeople {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+ListPerson{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+#input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid blue;
+  font-size: 25px;
+}
+
+#display {
+  display:flex;
+  width: 100%;
+  height: 300px;
+  border: 1px solid green;
+}
+
+#basicInfo{
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  border: 1px solid purple;
+  font-size: 100px;
+}
+
+.basicInfo{
+  border: 1px solid black;
+}
+
+#expandedInfo{
+  display: flex;
+  width: 50%;
+  border: 1px solid yellow;
+}
+
+form {
+  width: 60%;
+}
+
+/* input {
+  height: 30px;
+  width: 100%;
+} */
+
+/* #submitButton {
+  height: 50px;
+  width: 100px;
+  border-radius: 2px;
+  background-color: gray;
+  color: black;
+}  */
